@@ -1,0 +1,52 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-image:url("https://img.freepik.com/free-vector/hand-drawn-background-diwali-festival-celebration_23-2150945342.jpg?w=996&t=st=1699291115~exp=1699291715~hmac=dd7b1af8c8171f9ed16366c5c0cca79de4a1dab9485967007a0667e8e50e60f4");
+    background-size:cover;
+    font-family:times;
+    font-size:25px;
+}
+.container{
+    background-color:white;
+    border-radius:20px;
+    padding:15px;
+    display:flex;
+    flex-direction:wrap;
+    justify-content:row;
+    align-items:center;
+    gap:15px;
+    text-align:end;
+}
+.heading{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+    padding:10px;
+}
+.button{
+    padding:10px;
+    border-radius:10px;
+    background-color:transparent;
+    margin-top:100px;
+}
+.quote{
+    position:relative;
+    top:70px;
+    color:rgba(140,10,20,1);
+}
+.author{
+    position:relative;
+    top:80px;
+    color:red;
+}
+.button:hover{
+    background-color:black;
+    color:white;
+}
